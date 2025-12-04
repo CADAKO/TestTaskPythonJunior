@@ -1,8 +1,8 @@
-# src/report_generators.py
+# modules/report_generators.py
 from abc import ABC, abstractmethod
 from typing import List
 from collections import defaultdict
-from src.data_models import DeveloperData, PerformanceReportRow
+from modules.data_models import DeveloperData, PerformanceReportRow
 import operator
 
 

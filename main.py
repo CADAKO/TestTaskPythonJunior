@@ -1,10 +1,10 @@
-# src/main.py
+# modules/main.py
 import argparse
 import sys
 from tabulate import tabulate
-from utils import load_all_data
-from report_generators import PerformanceReportGenerator
-from data_models import DeveloperData, PerformanceReportRow
+from modules.utils import load_all_data
+from modules.report_generators import PerformanceReportGenerator
+from modules.data_models import DeveloperData, PerformanceReportRow
 from typing import List
 
 

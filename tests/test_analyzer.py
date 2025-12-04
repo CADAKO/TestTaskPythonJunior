@@ -1,8 +1,8 @@
 # tests/test_analyzer.py
 import pytest
-from src.data_models import DeveloperData, PerformanceReportRow
-from src.report_generators import PerformanceReportGenerator
-from src.utils import load_all_data
+from modules.data_models import DeveloperData, PerformanceReportRow
+from modules.report_generators import PerformanceReportGenerator
+from modules.utils import load_all_data
 from typing import List
 
 

@@ -1,8 +1,8 @@
-# src/utils.py
+# modules/utils.py
 import csv
 import sys
 from typing import List
-from src.data_models import DeveloperData
+from modules.data_models import DeveloperData
 
 
 def load_all_data(file_paths: List[str]) -> List[DeveloperData]:
